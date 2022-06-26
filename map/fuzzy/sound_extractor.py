@@ -2,7 +2,7 @@ import indicoio
 import json
 from fuzzy_engine import read_sound_dictionary, setup_fuzzy_engine, predict_sound_level
 
-indicoio.config.api_key = '1af2f06106902f15ad156eb66952e0b1'
+indicoio.config.api_key = '' # Add you secret key here
 
 
 sample_sentence = 'no words can help me'
