@@ -1,0 +1,63 @@
+#map{ 
+    height:100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.row-map{
+  background-color: black;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  overflow: visible;
+  overflow-x: unset;
+  overflow-y: unset;
+  
+}
+.charts{
+  background: #222;
+  opacity: 0.5;
+  height:100vh;
+  width: 400px;
+  position: absolute;
+  z-index: 2;
+}
+.logo{
+  position: absolute;
+  z-index: 3;
+  margin-top: 800px;
+  
+}
+.font-logo{
+  font-family: hvb,Trajan;
+  font-size: 36pt;
+  padding-left: 100px;
+  color: #eee;
+  position: absolute;
+}
+.under-logo{
+  font-family: sanies;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 180px;
+  font-size: 25pt;
+  color: grey
+}
+#CChartContainer{
+  position: absolute;
+  margin-top: 0px;
+  opacity: 0.7;
+  z-index: 3;
+}
+#eChartContainer{
+  position: absolute;
+  margin-top: 400px;
+  opacity: 0.7;
+  z-index: 3;
+}
+
+div#map div.leaflet-control-container div.leaflet-right.leaflet-botom div.leaflet-control.legend_info{
+  background: #eee
+}

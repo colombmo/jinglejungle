@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: Trajan;
+    src: url(assets/fonts/trajanpro.ttf) format("tff");
+    
+}
+
+@font-face{
+    font-family: hvb;
+    src: url('assets/fonts/Haveabanana.otf') format('opentype');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: sanies;
+    src: url('assets/fonts/SaniesScript.ttf') format('truetype');
+    font-display: auto;
+}
